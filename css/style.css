@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 36px;
+}
+
+.countdown {
+    margin-top: 324px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 51px;
+    color: rgb(172, 9, 9);
+    min-width: 320px;
+    background-color: black;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.countdown-item {
+    padding: 6px;
+    min-width: 65px;
+}
+
+.expired {
+    color: #222;
+    margin: 0 auto;
+}
+
+.most-title {
+    font-size: 30px;
+    color: rgb(172, 9, 9);
+    position: absolute;
+}
